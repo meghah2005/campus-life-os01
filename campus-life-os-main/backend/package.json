@@ -1,0 +1,15 @@
+{
+  "name": "campus-life-os-backend-tools",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "seed": "node seeds/index.js",
+    "seed:campus": "node seeds/campus-life-os/seeder.js",
+    "seed:focusup": "node seeds/focusup/seeder.js",
+    "seed:config": "node seeds/config/seeder.js"
+  },
+  "dependencies": {
+    "mongoose": "^8.12.2"
+  }
+}
